@@ -17,21 +17,21 @@ const MobileNav = () => {
         <SheetTrigger asChild>
           <Image
             src="/icons/hamburger.svg"
-            width={36}
+            width={27}
             height={36}
             alt="hamburger icon"
-            className="cursor-pointer sm:hidden"
+            className="cursor-pointer sm:hidden bg-blue-500  rounded-full"
           />
         </SheetTrigger>
-        <SheetContent side="left" className="border-none bg-dark-1">
+        <SheetContent side="left" className="border-none bg-black">
           <Link href="/" className="flex items-center gap-1">
             <Image
-              src="/icons/logo.svg"
+              src="/icons/video.svg"
               width={32}
               height={32}
-              alt="yoom logo"
+              alt="harmonize logo"
             />
-            <p className="text-[26px] font-extrabold text-white">YOOM</p>
+            <p className="text-[26px] font-extrabold text-white">harmonize</p>
           </Link>
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
             <SheetClose asChild>

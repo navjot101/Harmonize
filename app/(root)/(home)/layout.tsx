@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/Sidebar';
 
 export const metadata: Metadata = {
-  title: 'YOOM',
+  title: 'harmonize',
   description: 'A workspace for your team, powered by Stream Chat and Clerk.',
 };
 
@@ -14,7 +14,7 @@ const RootLayout = ({ children }: Readonly<{children: ReactNode}>) => {
     <main className="relative">
       <Navbar />
 
-      <div className="flex">
+      <div className="flex ">
         <Sidebar />
         
         <section className="flex min-h-screen flex-1 flex-col px-6 pb-6 pt-28 max-md:pb-14 sm:px-14">
